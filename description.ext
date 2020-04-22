@@ -1,0 +1,31 @@
+#include "params\defaultDescription.inc"
+#include "params\cfgMissionParams.inc"
+disabledAI = 1;
+
+
+class Header
+{
+		gameType = Warlords;
+		minPlayers = 1;
+		maxPlayers = 64;
+
+
+
+	// Debug Enable
+	//enableDebugConsole = 1; // Not usable with obusqf packer
+	enableDebugConsole[] = {"76561198034106257"};
+
+	};
+
+
+
+
+
+#include "taw_vd\GUI.h" //View Distance Editing
+
+class CfgFunctions
+{
+    #include "taw_vd\CfgFunctions.hpp"
+};
+
+#include "R3F_LOG\desc_include.h" //Moveable crates

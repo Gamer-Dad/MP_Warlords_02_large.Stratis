@@ -4656,7 +4656,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[""A3DefaultAll""]";
+							value="[""MyWLAssetList""]";
 						};
 					};
 				};

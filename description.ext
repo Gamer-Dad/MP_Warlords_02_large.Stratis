@@ -1,7 +1,7 @@
 #include "params\defaultDescription.inc"
 #include "params\cfgMissionParams.inc"
 disabledAI = 1;
-
+enableDebugConsole[] = {"76561198034106257"};
 
 class Header
 {
@@ -13,11 +13,9 @@ class Header
 
 	// Debug Enable
 	//enableDebugConsole = 1; // Not usable with obusqf packer
-	enableDebugConsole[] = {"76561198034106257"};
+	
 
-	};
-
-
+};
 
 
 

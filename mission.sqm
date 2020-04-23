@@ -129,7 +129,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="@STR_A3_WL_modName";
+		briefingName="Warlords Stratis";
 		overviewText="@STR_A3_WL_modRules";
 		resistanceWest=0;
 		timeOfChanges=28800;

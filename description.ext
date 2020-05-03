@@ -9,12 +9,13 @@ class Header
 		minPlayers = 1;
 		maxPlayers = 64;
 
+};
 
+#include "defines.hpp"
 
-	// Debug Enable
-	//enableDebugConsole = 1; // Not usable with obusqf packer
-	
-
+class RscTitles 
+{
+    #include "titles.hpp"
 };
 
 

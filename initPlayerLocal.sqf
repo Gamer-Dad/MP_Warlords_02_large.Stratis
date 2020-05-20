@@ -78,3 +78,5 @@ if (side player == west) then {
 
 enableEnvironment true;
 enableRadio true;
+
+execVM "scripts\NRE_earplugs.sqf";
